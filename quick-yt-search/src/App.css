@@ -1,0 +1,72 @@
+.App {
+  padding: 25px 0;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.SearchBar {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+.VideoDeets {
+  padding: 15px;
+}
+
+.VideoList {
+  padding: 15px;
+}
+
+.VideoListItem {
+  margin: 0 0 8px 0;
+  clear: both;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s;
+  color: #333;
+}
+
+.VideoListItem:hover {
+  color: #333;
+  opacity: 1;
+}
+
+.VideoListItem > img {
+  float: left;
+  margin-right: 8px;
+  width: 70px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .VideoList {
+    padding-left: 0;
+  }
+}
+
+
+
+
+
+
+
+.EmbedContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.EmbedContainer iframe,
+.EmbedContainer object,
+.EmbedContainer embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
