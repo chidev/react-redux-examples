@@ -1,0 +1,15 @@
+main {
+  padding: 25px 0;
+}
+
+.BookList-item {
+  cursor: pointer;
+}
+.BookList-item:hover {
+  color: #333;
+  background: #f9f9f9;
+}
+
+.BookList-pages {
+  font-size: 11px;
+}
